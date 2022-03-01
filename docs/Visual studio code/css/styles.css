@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 14px;
+}
+
+body {
+
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background-color: rgb(40, 184, 59);
+
+}
+
+
+
+main {
+    border: 2px solid color red (236, 89, 20); 
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0.5em 2em 2em 2em; 
+}
+
+
+figure {
+
+width: 100%;
+margin: 20px auto 10px auto;
+flex-basis: 300px;
+flex-grow: 1;
+flex-shrink: 1;
+}
+
+
+section {
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 0.5rem;
+    padding: 8px;
+}
+h1, h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  text-align: center;
+  margin: 5px;
+}
+
+footer {
+    text-align: start;
+}
+img {
+    border: 1px solid green;
+    width: 50%;
+display: block;
+margin: 10px auto 10px auto;
+}
+
+p {
+    text-align: justify;
+}
+
+p.first {
+    color: rgb(20, 182, 87);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 500px) {
+
+    main{
+        width:100%;
+        padding: 1px;
+    }
+    p{
+        font-size: .9em;
+    }
+}
+
+.playlink {
+    text-align: center;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+.playlink:hover {
+background-color: blue;
+}
+
+.playlink:hover a{
+    color: white;
+}
+
+.playlink a{
+    text-decoration: none;
+}
